@@ -19,10 +19,10 @@ cp .env.example .env
 nano .env
 ```
 
-Set these values:
+Set these values (get the real values from the owner):
 ```env
-TELEGRAM_BOT_TOKEN=8994555003:AAEWZTaP5vCM2uZmP1Fpbrr_WGLt-fn5Qdg
-TELEGRAM_CHAT_ID=-1003986842055
+TELEGRAM_BOT_TOKEN=your_bot_token_here
+TELEGRAM_CHAT_ID=your_chat_id_here
 ```
 
 ### 3. Build
