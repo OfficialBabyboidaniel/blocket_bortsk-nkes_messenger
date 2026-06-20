@@ -1,0 +1,8 @@
+services:
+  blocket-monitor:
+    build: .
+    container_name: blocket-monitor
+    restart: "no"
+    env_file: .env
+    volumes:
+      - ./data:/data
